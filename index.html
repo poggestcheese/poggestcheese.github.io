@@ -80,7 +80,7 @@
         // Mobile device style: fill the whole browser client area with the game canvas:
 
         const hRem = window.innerHeight % 16;
-        const wRem = window.innerWidth & 9;
+        const wRem = window.innerWidth % 9;
         const newH = window.innerHeight - hRem;
         const newW = window.innerWidth - wRem;
 
