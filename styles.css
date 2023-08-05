@@ -1,6 +1,21 @@
 nav {
     background-color: #1f2129;
+}
+
+li {
     display: inline-block;
+}
+
+a {
+    color: white;
+}
+
+a:active {
+    background-color: e6ac37;
+}
+
+ul {
+    list-style-type: none;
 }
 
 body {
