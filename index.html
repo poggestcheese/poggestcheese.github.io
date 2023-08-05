@@ -81,8 +81,8 @@
 
         const hRem = screen.height % 16;
         const wRem = screen.width % 9;
-        const newH = screen.height - hRem;
-        const newW = screen.width - wRem;
+        const newH = (screen.height - hRem) * 0.8;
+        const newW = (screen.width - wRem) * 0.8;
 
         var meta = document.createElement('meta');
         meta.name = 'viewport';
