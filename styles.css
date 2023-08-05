@@ -1,8 +1,10 @@
 nav {
     background-color: #1f2129;
+    display: inline-block;
 }
 
 body {
     background-color: #272934;
     font-family: "Comic Sans MS";
+    color: white;
 }
