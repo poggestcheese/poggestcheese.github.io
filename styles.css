@@ -99,11 +99,12 @@ a {
 
 div#game1 {
     background-color: orange;
-    width: 1080px;
+    width: 1000px;
     height: 405px;
     margin: auto;
     padding: 8px;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 div#game1 a div#text1 {
@@ -111,6 +112,7 @@ div#game1 a div#text1 {
     color: white;
     text-align: left;
     width: 50%;
+    display: block;
 }
 
 div#game1 a div#text1 h2 {
@@ -118,13 +120,37 @@ div#game1 a div#text1 h2 {
     color: white;
     text-align: left;
     font-size: 35px;
-    line-height: 405px;
+    display: block;
 }
 
-div#game1 a div#text1 h3 {
+div#game1 a div#text1 p {
     float: left;
     color: white;
     text-align: left;
     font-size: 20px;
-    line-height: 405px;
+    display: block;
+    padding-bottom: 35px;
+}
+
+div#game1 a img {
+    float: left;
+    width: 405px;
+    height: 405px;
+    border-radius: 20px;
+    display: block;
+}
+
+div.chip {
+    border-radius: 25px;
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bolder;
+    float: left;
 }
