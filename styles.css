@@ -31,6 +31,11 @@ li h1 {
     border-right: 1px solid #bbb;
 }
 
+li img {
+    float: left;
+    padding-left: 54px;
+}
+
 li a:hover {
     background-color: #e6ac37;
 }
@@ -49,6 +54,7 @@ body {
 
 div {
     padding: 12px;
+    text-align: center;
 }
 
 li {
@@ -61,16 +67,64 @@ li:last-child {
 
 h1 {
     font-size: 30px;
+    text-align: center;
+    padding: 8px;
 }
 
 h2 {
     font-size: 25px;
+    text-align: center;
+    padding: 8px;
 }
 
 h3 {
     font-size: 20px;
+    text-align: center;
+    padding: 8px;
 }
 
 p {
     font-size: 16px;
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    padding: 12px;
+}
+
+a {
+    text-align: center;
+}
+
+div#game1 {
+    background-color: orange;
+    width: 1080px;
+    height: 405px;
+    margin: auto;
+    padding: 8px;
+    overflow: hidden;
+}
+
+div#game1 a div#text1 {
+    float: right;
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+
+div#game1 a div#text1 h2 {
+    float: left;
+    color: white;
+    text-align: left;
+    font-size: 35px;
+    line-height: 405px;
+}
+
+div#game1 a div#text1 h3 {
+    float: left;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 405px;
 }
