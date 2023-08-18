@@ -8,25 +8,27 @@
 }
 
 nav {
-    background-color: #1f2129;
-    padding: 14px 16px;
-}
-
-li {
-    display: inline;
-    border-right: 1px solid #bbb;
-}
-
-li:last-child {
-    border-right: none;
+    background-color: #333;
 }
 
 li a {
-    display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 44px;
     text-decoration: none;
+    float: right;
+    border-left: 1px solid #bbb;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li h1 {
+    color: #e6ac37;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #bbb;
 }
 
 li a:hover {
@@ -35,11 +37,40 @@ li a:hover {
 
 ul {
     list-style-type: none;
-    padding: 14px 16px;
+    overflow: hidden;
+    background-color: #333;
 }
 
 body {
     background-color: #272934;
     font-family: "Comic Sans MS";
     color: white;
+}
+
+div {
+    padding: 12px;
+}
+
+li {
+    border-left: 1px solid #bbb;
+}
+
+li:last-child {
+    border-left: none;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
 }
