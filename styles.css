@@ -111,8 +111,10 @@ div#game1 a div#text1 {
     float: right;
     color: white;
     text-align: left;
-    width: 50%;
+    width: 55%;
     display: block;
+    padding-bottom: 100px;
+    padding-right: 10px;
 }
 
 div#game1 a div#text1 h2 {
@@ -153,4 +155,12 @@ div.chip {
     font-size: 25px;
     font-weight: bolder;
     float: left;
+    margin: 5px;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
 }
