@@ -11,7 +11,7 @@ nav {
     background-color: #333;
 }
 
-li a {
+a.nav {
     color: white;
     text-align: center;
     padding: 20px 44px;
@@ -22,21 +22,24 @@ li a {
     font-weight: bold;
 }
 
-li h1 {
+li a img {
+    border-right: 1px solid #bbb;
+    padding: 0 25px;
+    text-align: left;
+    margin: 0;
+    width: 80px;
+    float: left;
+}
+
+li a h1 {
     color: #e6ac37;
     text-align: center;
     padding: 20px;
     text-decoration: none;
     float: left;
-    border-right: 1px solid #bbb;
 }
 
-li img {
-    float: left;
-    padding-left: 54px;
-}
-
-li a:hover {
+a.nav:hover {
     background-color: #e6ac37;
 }
 
@@ -66,9 +69,10 @@ li:last-child {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 29px;
     text-align: center;
     padding: 8px;
+    border-right: none;
 }
 
 h2 {
@@ -163,4 +167,33 @@ a.fill-div {
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+
+div#splashy {
+    padding: 50px;
+    background-color: #434343;
+    height: 512px;
+}
+
+div#splashy img {
+    float: right;
+    padding: 0px 100px;
+}
+
+div#splashy div {
+    float: left;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+div#spl-text h1 {
+    font-size: 120px;
+}
+
+div#spl-text h2 {
+    font-size: 50px;
+}
+
+div#spl-text h3 {
+    font-size: 30px;
 }
