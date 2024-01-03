@@ -173,6 +173,7 @@ div#splashy {
     padding: 50px;
     background-color: #434343;
     height: 512px;
+    display: block;
 }
 
 div#splashy img {

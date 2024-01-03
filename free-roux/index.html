@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>poggestcheese - Home</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="icon" type="image/x-icon" href="../cool cheese.png">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script src="captchaify.js" async defer></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/"><img src="../cool cheese.png" height="80px" width="80px"></a></li>
+                <li><a href="/"><h1>poggestcheese - a cozy place for my spontaneous projects</h1></a></li>
+                <li><a href="https://poggestcheese.github.io/#contact" class="nav">Contact me</a></li>
+                <li><a href="https://poggestcheese.github.io/#projects" class="nav">Projects</a></li>
+                <li><a href="https://poggestcheese.github.io/#splashy" class="nav">About me</a></li>
+                <li><a href="https://poggestcheese.github.io/#" class="nav">Home</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1 style="text-align: left;">free roux!</h1>
+            <button style="float: left; padding: 3px;background-color: greenyellow;" onclick="suspicious()">click here to generate a code</button>
+            <br>
+            <h2 id="suspicious" style="color: red; text-align: left; display:none;">our systems have detected suspicious activity.. please verify you are human below</h2>
+            <div id="sus" class="g-recaptcha" data-sitekey="6LcY9kQpAAAAAFBsPVIK4tDINHrQmrQsbzudKbgm" style="display:none;"></div>
+        </div>
+        <div>
+            <p>don't worry its not a virus you can check by going in inspect element</p>
+        </div>
+    </body>
+</html>
