@@ -18,3 +18,4 @@ This website lets me make projects specifically using HTML, CSS and JS so I can 
 - a better version of journey planner
 - A countdown app for iOS because the current ones suck
 - Make a browser lol
+- Apple parody new iphone page thing
