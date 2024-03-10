@@ -17,5 +17,5 @@ This website lets me make projects specifically using HTML, CSS and JS so I can 
 - Infinite captchas for free robux, the more you do the wackier it gets
 - a better version of journey planner
 - A countdown app for iOS because the current ones suck
-- Make a browser lol
+- Make a browser lol (called moon - observing the world)
 - Apple parody new iphone page thing
