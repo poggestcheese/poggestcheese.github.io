@@ -19,3 +19,4 @@ This website lets me make projects specifically using HTML, CSS and JS so I can 
 - A countdown app for iOS because the current ones suck
 - Make a browser lol (called moon - observing the world)
 - Apple parody new iphone page thing
+- Make a mcdonalds kiosk
